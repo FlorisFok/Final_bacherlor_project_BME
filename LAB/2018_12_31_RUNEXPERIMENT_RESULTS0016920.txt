@@ -1,0 +1,36 @@
+Floris Fok 
+2018/12/31      At: 16:9:20
+ 
+ 
+ The params where: 
+1.Data = Breast
+2.data_name = None
+3.style = FT
+4.model = imagenet
+5.file_path = C:\breast-ultrasound-image
+6.pickle_path = C:\pickles\Breast
+7.model_path = {'KaggleDR': 'C:\\models\\Epochs_50_kaggleDR.json', 'Chest': 'C:\\models\\Epochs_50_Chest.json', 'CatDog': 'C:\\models\\Epochs_40_CatDog.json'}
+8.RandomSeed = 2
+9.doc_path = C:\Users\Flori\Documents\GitHub\t
+10.img_size_x = 224
+11.img_size_y = 224
+12.norm = False
+13.color = True
+14.pretrain = None
+15.equal_data = False
+16.shuffle = True
+17.epochs = 50
+18.val_size = 10
+19.test_size = 90
+20.Batch_size = 1 
+ 
+ 
+ The results where: 
+1.score = 0.98465625
+2.acc_epoch = [0.62, 0.7666666666666667, 0.8266666666666667, 0.7466666666666667, 0.8066666666666666, 0.68, 0.6333333333333333, 0.6333333333333333, 0.5733333333333334, 0.5066666666666667, 0.56, 0.6, 0.82, 0.84, 0.5533333333333333]
+3.val_acc_epoch = [0.7, 0.6, 0.7, 0.5, 0.9, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1.0, 0.5, 0.7, 0.5]
+4.loss_epoch = [1.3860941354433696, 1.3809531744321186, 1.3640200114250183, 1.36610036055247, 1.3458693933486938, 1.3559154423077902, 1.388954421679179, 1.3864510615666708, 1.3871703720092774, 1.3871409980456035, 1.387111230691274, 1.3816967074076334, 1.3495599182446798, 1.3329449586073558, 1.3556023581822714]
+5.vall_loss_epoch = [0.6925198376178742, 0.6902695178985596, 0.6828547537326812, 0.6925989389419556, 0.6594186246395111, 0.6941416800022125, 0.6939553856849671, 0.693080461025238, 0.6930413126945496, 0.6929517447948456, 0.6925767004489899, 0.6825242280960083, 0.6946006953716278, 0.6720611691474915, 0.6831114768981934]
+Figure name: 
+C:\Users\Flori\Documents\GitHub\figs\2018_12_31_RUNEXPERIMENT_FigureLOSS&ACC0169.png
+ NONE 

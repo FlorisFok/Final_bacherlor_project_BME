@@ -1,0 +1,31 @@
+Floris Fok 
+2018/12/9      At: 12:49:49
+ 
+ 
+ The params where: 
+1.Data = ISIC
+2.img_size_x = 224
+3.img_size_y = 224
+4.norm = False
+5.color = True
+6.pretrain = None
+7.equal_data = False
+8.shuffle = True
+9.epochs = 1
+10.val_size = 200
+11.test_size = 400
+12.Batch_size = 16 
+ 
+ 
+ The results where: 
+1.score = 0.5046364900986583
+2.acc_epoch = [0.33134243458475543]
+3.val_acc_epoch = [0.335]
+4.loss_epoch = [1.0985395870382333]
+5.vall_loss_epoch = [1.0986968517303466]
+6.data_name = three
+7.method = imagenet
+8.style = FT
+Figure name: 
+C:\Users\Flori\Documents\GitHub\t2018_12_9_RUNEXPERIMENT_FigureACC01249.png
+C:\Users\Flori\Documents\GitHub\t2018_12_9_RUNEXPERIMENT_FigureLOSS&ACC01249.png

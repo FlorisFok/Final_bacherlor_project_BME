@@ -1,0 +1,24 @@
+Floris Fok 
+2018/12/8      At: 12:31:40
+ 
+ 
+ The params where: 
+1.img_size_x = 224
+2.img_size_y = 224
+3.norm = False
+4.color = True
+5.pretrain = None
+6.equal_data = False
+7.shuffle = True
+8.epochs = 2
+9.val_size = 50
+10.test_size = 50
+11.Batch_size = 1 
+ 
+ 
+ The results where: 
+1.score = 0.6131907308377897
+2.acc_epoch = [0.4, 0.55]
+3.val_acc_epoch = [0.56, 0.56]
+4.loss_epoch = [0.8270561717450619, 0.6980875879526138]
+5.vall_loss_epoch = [0.6745249259471894, 0.6733976501226425]

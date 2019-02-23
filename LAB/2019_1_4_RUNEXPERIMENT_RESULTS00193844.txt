@@ -1,0 +1,37 @@
+Floris Fok 
+2019/1/4      At: 19:38:44
+ 
+ 
+ The params where: 
+1.Data = ISIC
+2.data_name = two
+3.style = FT
+4.model = None
+5.file_path = C:\ISIC
+6.pickle_path = C:\pickles\melanoom_color_NotEqual_
+7.model_path = {'Nat': 'C:\\models\\Epochs_50_Nat', 'KaggleDR': 'C:\\models\\Epochs_50_kaggleDR.json', 'Chest': 'C:\\models\\Epochs_50_Chest.json', 'CatDog': 'C:\\models\\Epochs_40_CatDog.json'}
+8.RandomSeed = 2
+9.doc_path = C:\Users\Flori\Documents\GitHub\t
+10.img_size_x = 224
+11.img_size_y = 224
+12.norm = False
+13.color = True
+14.pretrain = None
+15.equal_data = False
+16.shuffle = True
+17.epochs = 1
+18.val_size = 200
+19.test_size = 400
+20.Batch_size = 32
+21.stop = yes 
+ 
+ 
+ The results where: 
+1.score = 0.6402734375
+2.acc_epoch = [0.7713787089675717]
+3.val_acc_epoch = [0.755]
+4.loss_epoch = [0.526477607548965]
+5.vall_loss_epoch = [0.5358308100700379]
+Figure name: 
+C:\Users\Flori\Documents\GitHub\figs\2019_1_4_RUNEXPERIMENT_FigureLOSS&ACC01938.png
+ NONE 

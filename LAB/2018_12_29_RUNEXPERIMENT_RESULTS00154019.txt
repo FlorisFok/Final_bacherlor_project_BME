@@ -1,0 +1,32 @@
+Floris Fok 
+2018/12/29      At: 15:40:19
+ 
+ 
+ The params where: 
+1.Data = Chest
+2.data_name = None
+3.style = SVM
+4.model = CatDog
+5.file_path = C:\chest_xray
+6.pickle_path = C:\pickles\Chest_int
+7.model_path = {'KaggleDR': 'C:\\models\\Epochs_50_kaggleDR.json', 'Chest': 'C:\\models\\Epochs_50_Chest.json', 'CatDog': 'C:\\models\\Epochs_40_CatDog.json'}
+8.RandomSeed = 7
+9.doc_path = C:\Users\Flori\Documents\GitHub\t
+10.img_size_x = 224
+11.img_size_y = 224
+12.norm = False
+13.color = True
+14.pretrain = None
+15.equal_data = False
+16.shuffle = True
+17.epochs = 50
+18.val_size = 600
+19.test_size = 900
+20.Batch_size = 32 
+ 
+ 
+ The results where: 
+1.score = 0.9794868373899484
+2.data_name = None
+3.method = CatDog
+4.style = SVM

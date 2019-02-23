@@ -1,0 +1,14 @@
+Floris Fok 
+2018/11/28/21at: 36:41
+ 
+ 
+ The params where: 
+1.epochs = 5
+2.size = 10000
+3.model = VGG 
+ 
+ 
+ The results where: 
+1.AUC = [0.1, 0.2, 0.3, 0.4, 0.5]
+2.acc = 0.99
+3.loss = 0.66

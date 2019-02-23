@@ -1,0 +1,28 @@
+Floris Fok 
+2018/12/8      At: 12:44:30
+ 
+ 
+ The params where: 
+1.Data = cat_dogmini
+2.img_size_x = 224
+3.img_size_y = 224
+4.norm = False
+5.color = True
+6.pretrain = None
+7.equal_data = False
+8.shuffle = True
+9.epochs = 2
+10.val_size = 50
+11.test_size = 50
+12.Batch_size = 1 
+ 
+ 
+ The results where: 
+1.score = 0.6608
+2.acc_epoch = [0.6, 0.35]
+3.val_acc_epoch = [0.56, 0.5]
+4.loss_epoch = [0.7966185647994279, 0.7034388050436974]
+5.vall_loss_epoch = [0.6906646871566773, 0.689484384059906]
+Figure name: 
+C:\Users\s147057\Documents\GitHub\t2018_12_8_RUNEXPERIMENT_FigureACC01244.png
+C:\Users\s147057\Documents\GitHub\t2018_12_8_RUNEXPERIMENT_FigureLOSS&ACC01244.png

@@ -1,0 +1,28 @@
+Floris Fok 
+2018/12/8      At: 15:40:22
+ 
+ 
+ The params where: 
+1.Data = kaggleDR
+2.img_size_x = 224
+3.img_size_y = 224
+4.norm = False
+5.color = True
+6.pretrain = None
+7.equal_data = False
+8.shuffle = True
+9.epochs = 5
+10.val_size = 30
+11.test_size = 30
+12.Batch_size = 1 
+ 
+ 
+ The results where: 
+1.score = 0.477581645685094
+2.acc_epoch = [0.725, 0.825, 0.825, 0.825, 0.825]
+3.val_acc_epoch = [0.8, 0.8, 0.8, 0.8, 0.8]
+4.loss_epoch = [1.1914817421755288, 0.9558572893263773, 0.8972890414632275, 0.8559147384832613, 0.7935373078129487]
+5.vall_loss_epoch = [1.4631360570589702, 1.2109352900685433, 1.1135817686716716, 0.7647627220799526, 0.9399030743050389]
+Figure name: 
+C:\Users\Flori\Documents\GitHub\t2018_12_8_RUNEXPERIMENT_FigureACC01540.png
+C:\Users\Flori\Documents\GitHub\t2018_12_8_RUNEXPERIMENT_FigureLOSS&ACC01540.png

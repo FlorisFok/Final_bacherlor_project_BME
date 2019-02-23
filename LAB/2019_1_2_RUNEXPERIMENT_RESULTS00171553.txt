@@ -1,0 +1,36 @@
+Floris Fok 
+2019/1/2      At: 17:15:53
+ 
+ 
+ The params where: 
+1.Data = Nat
+2.style = none
+3.model = none
+4.file_path = C:\natural_images
+5.pickle_path = C:\pickles\Nat
+6.model_path = C:\models\Epochs_
+7.RandomSeed = 2
+8.doc_path = C:\Users\Flori\Documents\GitHub\t
+9.img_size_x = 224
+10.img_size_y = 224
+11.norm = False
+12.color = True
+13.pretrain = None
+14.equal_data = False
+15.shuffle = True
+16.epochs = 6
+17.val_size = 500
+18.test_size = 1000
+19.Batch_size = 32
+20.stop = no 
+ 
+ 
+ The results where: 
+1.score = 0.9803758743644
+2.acc_epoch = [0.4721244675050203, 0.6560474162765025, 0.7568068160439315, 0.8055195405342376, 0.8412669012448947, 0.8688646044349599]
+3.val_acc_epoch = [0.6520000009536743, 0.7520000009536744, 0.7899999995231628, 0.8020000009536743, 0.8479999990463257, 0.8460000009536743]
+4.loss_epoch = [1.4890568450570747, 0.9923532024746273, 0.68048433599306, 0.5366456338014177, 0.4276445988240695, 0.3541597547597809]
+5.vall_loss_epoch = [1.0421981763839723, 0.6809130001068116, 0.5836775217056275, 0.5179536948204041, 0.43721992778778074, 0.41536083817481995]
+Figure name: 
+C:\Users\Flori\Documents\GitHub\figs\2019_1_2_RUNEXPERIMENT_FigureLOSS&ACC01715.png
+ NONE 

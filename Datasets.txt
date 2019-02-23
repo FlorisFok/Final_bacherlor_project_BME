@@ -1,0 +1,37 @@
+Data sets die niet 100gb zijn, meer tussen de 20 en 1 gb. 
+
+niet medisch:
+https://www.kaggle.com/smeschke/four-shapes
+https://www.kaggle.com/moltean/fruits
+https://www.kaggle.com/thedownhill/art-images-drawings-painting-sculpture-engraving
+https://www.kaggle.com/iarunava/happy-house-dataset
+https://www.kaggle.com/google/tinyquickdraw
+https://www.kaggle.com/prasunroy/natural-images
+
+medisch:
+https://www.kaggle.com/kmader/colorectal-histology-mnist
+https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+https://www.kaggle.com/skooch/ddsm-mammography
+https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
+https://www.kaggle.com/paultimothymooney/blood-cells
+
+
+Paper source: https://arxiv.org/pdf/1810.05444.pdf
+name,       methode,                  #img  #classes  used in paper:
+STL-10      object recognition        100K  10        Schlegl et al. (2014)
+Places      scene recognition         2.5M  205       Zhang et al. (2017) Du et al. (2018)
+DTD         texture classification    5.6K  47        Ribeiro et al. (2017) Shi et al. (2018) (Christodoulidis et al., 2017)
+ALOT        texture classification    28K   250       Ribeiro et al. (2017) (Christodoulidis et al., 2017)
+KTH-TIPS    texture classification    810   10        Ribeiro et al. (2017) (Christodoulidis et al., 2017)
+CIFAR-10    object classification     60K   10        Shin et al. (2016) Cha et al. (2017)
+FMD         texture classification    1K    10        Christodoulidis et al. (2017)
+KTB         texture classification    4.5K  27        Christodoulidis et al. (2017)
+UIUC        texture classification    1K    25        Christodoulidis et al. (2017)
+CALTECH-101 object recognition        9K    101       Ribeiro et al. (2017)
+COREL-1000  scene recognition         1K    10        Ribeiro et al. (2017)
+Kaggle-DR   image classification      35K   2         Menegola et al. (2017)
+INbreast    breasr lesesion classi    410   2         Shi et al. (2018)
+ICPR 2012   hr2-cell classification   1.5K  6         Lei et al. (2018)
+
+https://github.com/sfikas/medical-imaging-datasets
+some more... 

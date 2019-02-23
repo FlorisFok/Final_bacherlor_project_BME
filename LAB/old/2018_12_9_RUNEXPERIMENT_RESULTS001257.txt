@@ -1,0 +1,31 @@
+Floris Fok 
+2018/12/9      At: 12:57:51
+ 
+ 
+ The params where: 
+1.Data = ISIC
+2.img_size_x = 224
+3.img_size_y = 224
+4.norm = False
+5.color = True
+6.pretrain = None
+7.equal_data = False
+8.shuffle = True
+9.epochs = 1
+10.val_size = 200
+11.test_size = 400
+12.Batch_size = 16 
+ 
+ 
+ The results where: 
+1.score = 0.525994211730972
+2.acc_epoch = [0.33560864618885095]
+3.val_acc_epoch = [0.36]
+4.loss_epoch = [1.106512080144828]
+5.vall_loss_epoch = [1.0919995021820068]
+6.data_name = three
+7.method = kaggleDR
+8.style = FT
+Figure name: 
+C:\Users\Flori\Documents\GitHub\t2018_12_9_RUNEXPERIMENT_FigureACC01257.png
+C:\Users\Flori\Documents\GitHub\t2018_12_9_RUNEXPERIMENT_FigureLOSS&ACC01257.png

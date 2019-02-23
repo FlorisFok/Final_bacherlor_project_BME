@@ -1,0 +1,36 @@
+Floris Fok 
+2018/12/23      At: 20:54:2
+ 
+ 
+ The params where: 
+1.Data = Blood
+2.data_name = None
+3.style = FT
+4.model = CatDog
+5.file_path = C:\blood-cells
+6.pickle_path = C:\pickles\Blood
+7.model_path = {'KaggleDR': 'C:\\models\\Epochs_50_kaggleDR.json', 'Chest': 'C:\\models\\Epochs_50_Chest.json', 'CatDog': 'C:\\models\\Epochs_40_CatDog.json'}
+8.RandomSeed = 7
+9.doc_path = C:\Users\Flori\Documents\GitHub\t
+10.img_size_x = 224
+11.img_size_y = 224
+12.norm = False
+13.color = True
+14.pretrain = None
+15.equal_data = False
+16.shuffle = True
+17.epochs = 50
+18.val_size = 300
+19.test_size = 500
+20.Batch_size = 32 
+ 
+ 
+ The results where: 
+1.score = 0.5135027744139173
+2.acc_epoch = [0.0, 0.0, 0.0, 0.0, 0.06204222324386541, 0.24299870751788522, 0.2890995262204342, 0.3860404998230965, 0.2942697113313227, 0.0, 0.0038776391541737003, 0.011632916846186989]
+3.val_acc_epoch = [0.0, 0.0, 0.0, 0.0, 0.49333333373069765, 0.49333333373069765, 0.49333333373069765, 0.49333333373069765, 0.0, 0.0, 0.49333333373069765, 0.0]
+4.loss_epoch = [2.7844127185999037, 2.7775538755562326, 2.77441237538809, 2.7732071679298964, 2.772798665275557, 2.7726752117038647, 2.772562141718406, 2.7726675972040744, 2.7725479717862753, 2.7725024049726863, 2.7725421738285587, 2.7725968103067777]
+5.vall_loss_epoch = [2.7719427967071533, 2.770897467931112, 2.771386439005534, 2.7722925345102944, 2.7727894433339437, 2.7732349681854247, 2.773284152348836, 2.7735024801890056, 2.7736254914601646, 2.773669557571411, 2.7737737878163657, 2.773824052810669]
+Figure name: 
+C:\Users\Flori\Documents\GitHub\figs\2018_12_23_RUNEXPERIMENT_FigureLOSS&ACC02054.png
+ NONE 

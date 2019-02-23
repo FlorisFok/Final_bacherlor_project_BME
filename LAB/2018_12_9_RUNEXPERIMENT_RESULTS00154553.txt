@@ -1,0 +1,24 @@
+Floris Fok 
+2018/12/9      At: 15:45:53
+ 
+ 
+ The params where: 
+1.Data = ISIC
+2.img_size_x = 224
+3.img_size_y = 224
+4.norm = False
+5.color = True
+6.pretrain = None
+7.equal_data = False
+8.shuffle = True
+9.epochs = 50
+10.val_size = 300
+11.test_size = 400
+12.Batch_size = 16 
+ 
+ 
+ The results where: 
+1.score = 0.8691288029045705
+2.data_name = two_combined
+3.method = imagenet
+4.style = SVM

@@ -1,0 +1,36 @@
+Floris Fok 
+2018/12/31      At: 16:20:30
+ 
+ 
+ The params where: 
+1.Data = Breast
+2.data_name = None
+3.style = FT
+4.model = imagenet
+5.file_path = C:\breast-ultrasound-image
+6.pickle_path = C:\pickles\Breast
+7.model_path = {'KaggleDR': 'C:\\models\\Epochs_50_kaggleDR.json', 'Chest': 'C:\\models\\Epochs_50_Chest.json', 'CatDog': 'C:\\models\\Epochs_40_CatDog.json'}
+8.RandomSeed = 2
+9.doc_path = C:\Users\Flori\Documents\GitHub\t
+10.img_size_x = 224
+11.img_size_y = 224
+12.norm = False
+13.color = True
+14.pretrain = None
+15.equal_data = False
+16.shuffle = True
+17.epochs = 5
+18.val_size = 25
+19.test_size = 50
+20.Batch_size = 1 
+ 
+ 
+ The results where: 
+1.score = 0.9611088192708712
+2.acc_epoch = [0.6742857142857143, 0.84, 0.76, 0.8628571428571429, 0.72]
+3.val_acc_epoch = [0.84, 0.88, 0.88, 0.92, 0.52]
+4.loss_epoch = [1.3790747417722429, 1.3561422872543334, 1.34626606123788, 1.313150224685669, 1.3532891808237348]
+5.vall_loss_epoch = [0.68343989610672, 0.6685829257965088, 0.6612533926963806, 0.6416960430145263, 0.6927446103096009]
+Figure name: 
+C:\Users\Flori\Documents\GitHub\figs\2018_12_31_RUNEXPERIMENT_FigureLOSS&ACC01620.png
+ NONE 

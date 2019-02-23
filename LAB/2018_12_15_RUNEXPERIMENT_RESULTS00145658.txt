@@ -1,0 +1,33 @@
+Floris Fok 
+2018/12/15      At: 14:56:58
+ 
+ 
+ The params where: 
+1.Data = KaggleDR
+2.file_path = C:\kaggleDR
+3.pickle_path = C:\pickles\kaggleDR
+4.model_path = C:\models\Epochs_
+5.doc_path = C:\Users\Flori\Documents\GitHub\t
+6.img_size_x = 224
+7.img_size_y = 224
+8.norm = True
+9.color = True
+10.pretrain = None
+11.equal_data = False
+12.shuffle = True
+13.epochs = 5
+14.val_size = 3000
+15.test_size = 5000
+16.Batch_size = 32 
+ 
+ 
+ The results where: 
+1.score = 0.49790135909721356
+2.acc_epoch = [0.039, 0.051, 0.065, 0.073, 0.098]
+3.val_acc_epoch = [0.034, 0.083, 0.076, 0.121, 0.079]
+4.loss_epoch = [7.486821968078614, 7.383111204147339, 7.365700099945069, 7.350676208496094, 7.322997203826905]
+5.vall_loss_epoch = [1.6837143096923828, 1.6743207416534425, 1.6461482181549072, 1.6921067314147948, 1.7009164495468139]
+6.weights = {0: 1.0, 1: 13.0, 2: 6.0, 3: 35.0, 4: 47.0}
+Figure name: 
+C:\Users\Flori\Documents\GitHub\t2018_12_15_RUNEXPERIMENT_FigureACC01456.png
+C:\Users\Flori\Documents\GitHub\t2018_12_15_RUNEXPERIMENT_FigureLOSS&ACC01456.png

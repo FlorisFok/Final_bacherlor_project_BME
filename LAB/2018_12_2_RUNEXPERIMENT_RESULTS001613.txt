@@ -1,0 +1,19 @@
+Floris Fok 
+2018/12/2      At: 16:13:54
+ 
+ 
+ The params where: 
+1.img_size_x = 224
+2.img_size_y = 224
+3.norm = False
+4.color = True
+5.pretrain = imagenet
+6.extra_data = 500
+7.shuffle = True
+8.epochs = 50
+9.val_size = 300
+10.Batch_size = 10 
+ 
+ 
+ The results where: 
+1.score = 0.7731664470794906

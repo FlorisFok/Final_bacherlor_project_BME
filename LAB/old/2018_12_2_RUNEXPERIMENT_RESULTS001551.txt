@@ -1,0 +1,374 @@
+Floris Fok 
+2018/12/2      At: 15:51:52
+ 
+ 
+ The params where: 
+1.img_size_x = 224
+2.img_size_y = 224
+3.norm = False
+4.color = True
+5.pretrain = imagenet
+6.extra_data = 500
+7.shuffle = True
+8.epochs = 100
+9.val_size = 300
+10.Batch_size = 10 
+ 
+ 
+ The results where: 
+1.score = 0.7177407864741642Figure names: results_2.1.fig results_2.1.fig
+
+CMD:
+
+C:\Users\Floris\Documents\GitHub\transfer-medical-bsc-2018>python AARunScript.py
+Desktop detected
+This melanoom dataset contains the following: %--------- ] elapsed time: 288
+Total length Dataset = 1746
+Data generator: 499/500: [----------95%--------- ] elapsed time: 87
+
+Data generator: 499/500: [----------95%--------- ] elapsed time: 111
+
+//// cancel ////
+C:\Users\Floris\Documents\GitHub\transfer-medical-bsc-2018>python AARunScript.py
+Try to import pickle
+succeed to import pickle
+2018-12-02 15:01:02.733443: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1105] Found device 0 with properties:
+name: GeForce GTX 1070 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.7085
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.61GiB
+2018-12-02 15:01:02.740993: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1195] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1070 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+<tensorflow.python.keras._impl.keras.engine.topology.InputLayer object at 0x00000242FA63AE80> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E8A4630> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x00000242FAA04710> False
+<tensorflow.python.keras._impl.keras.layers.pooling.MaxPooling2D object at 0x000002429E8A4EF0> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E8A49B0> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E8AB630> False
+<tensorflow.python.keras._impl.keras.layers.pooling.MaxPooling2D object at 0x000002429E8DC6D8> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E8DCDA0> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E93B9B0> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E95E748> False
+<tensorflow.python.keras._impl.keras.layers.pooling.MaxPooling2D object at 0x000002429E96C3C8> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E97CE80> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E99B780> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E9BB518> False
+<tensorflow.python.keras._impl.keras.layers.pooling.MaxPooling2D object at 0x000002429E9C8080> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E9DB748> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429E9FB550> False
+<tensorflow.python.keras._impl.keras.layers.convolutional.Conv2D object at 0x000002429EA1BE10> False
+<tensorflow.python.keras._impl.keras.layers.pooling.MaxPooling2D object at 0x000002429EA1BF98> True
+<tensorflow.python.keras._impl.keras.layers.core.Flatten object at 0x000002429EA3D518> True
+<tensorflow.python.keras._impl.keras.layers.core.Dense object at 0x000002429EA3D8D0> True
+<tensorflow.python.keras._impl.keras.layers.core.Dense object at 0x000002429EA5B320> True
+<tensorflow.python.keras._impl.keras.layers.core.Dense object at 0x000002429EA3DE10> True
+<tensorflow.python.keras._impl.keras.layers.core.Dense object at 0x000002429EAAB668> True
+<tensorflow.python.keras._impl.keras.layers.core.Dense object at 0x000002429EAC0320> True
+<tensorflow.python.keras._impl.keras.layers.core.Dense object at 0x00000242F0CDADD8> True
+WARNING:tensorflow:From C:\Users\Floris\AppData\Local\Programs\Python\Python36\lib\site-packages\tensorflow\python\keras\_impl\keras\backend.py:3086: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From C:\Users\Floris\AppData\Local\Programs\Python\Python36\lib\site-packages\tensorflow\python\keras\_impl\keras\backend.py:1557: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+Train on 2446 samples, validate on 300 samples
+Epoch 1/100
+2446/2446 [==============================]2446/2446 [==============================] - 30s 12ms/step - loss: 1.3025 - acc: 0.2371 - val_loss: 0.7377 - val_acc: 0.3733
+
+Epoch 2/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 1.2667 - acc: 0.2273 - val_loss: 0.7463 - val_acc: 0.3733
+
+Epoch 3/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 1.2102 - acc: 0.2817 - val_loss: 0.7606 - val_acc: 0.5133
+
+Epoch 4/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 1.1477 - acc: 0.6173 - val_loss: 0.7097 - val_acc: 0.6200
+
+Epoch 5/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 1.0781 - acc: 0.6950 - val_loss: 0.6932 - val_acc: 0.6167
+
+Epoch 6/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 1.0244 - acc: 0.6803 - val_loss: 0.6223 - val_acc: 0.6900
+
+Epoch 7/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.9177 - acc: 0.7253 - val_loss: 0.7313 - val_acc: 0.6133
+
+Epoch 8/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.9377 - acc: 0.7359 - val_loss: 0.6938 - val_acc: 0.6000
+
+Epoch 9/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.8120 - acc: 0.8140 - val_loss: 0.5998 - val_acc: 0.7300
+
+Epoch 10/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.7126 - acc: 0.8381 - val_loss: 0.6065 - val_acc: 0.7133
+
+Epoch 11/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.6530 - acc: 0.8659 - val_loss: 0.6667 - val_acc: 0.7133
+
+Epoch 12/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.6259 - acc: 0.8716 - val_loss: 0.7626 - val_acc: 0.6800
+
+Epoch 13/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.5654 - acc: 0.8814 - val_loss: 0.6131 - val_acc: 0.6667
+
+Epoch 14/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.5475 - acc: 0.8786 - val_loss: 0.5810 - val_acc: 0.7333
+
+Epoch 15/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.4846 - acc: 0.9019 - val_loss: 0.6137 - val_acc: 0.6833
+
+Epoch 16/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.4282 - acc: 0.9080 - val_loss: 0.8423 - val_acc: 0.6800
+
+Epoch 17/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.3730 - acc: 0.9309 - val_loss: 0.8070 - val_acc: 0.7400
+
+Epoch 18/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.3813 - acc: 0.9240 - val_loss: 0.7859 - val_acc: 0.7267
+
+Epoch 19/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.4714 - acc: 0.8937 - val_loss: 0.9184 - val_acc: 0.6133
+
+Epoch 20/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.3597 - acc: 0.9321 - val_loss: 0.8192 - val_acc: 0.7167
+
+Epoch 21/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.3249 - acc: 0.9370 - val_loss: 0.7726 - val_acc: 0.7300
+
+Epoch 22/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2844 - acc: 0.9485 - val_loss: 0.9451 - val_acc: 0.6767
+
+Epoch 23/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2850 - acc: 0.9444 - val_loss: 1.0998 - val_acc: 0.6867
+
+Epoch 24/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.3580 - acc: 0.9191 - val_loss: 0.8238 - val_acc: 0.7433
+
+Epoch 25/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2252 - acc: 0.9624 - val_loss: 1.1588 - val_acc: 0.6867
+
+Epoch 26/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2217 - acc: 0.9591 - val_loss: 1.1709 - val_acc: 0.6833
+
+Epoch 27/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1919 - acc: 0.9697 - val_loss: 0.9857 - val_acc: 0.7133
+
+Epoch 28/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1559 - acc: 0.9722 - val_loss: 1.2776 - val_acc: 0.6933
+
+Epoch 29/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2771 - acc: 0.9477 - val_loss: 1.0653 - val_acc: 0.6967
+
+Epoch 30/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1366 - acc: 0.9779 - val_loss: 1.0970 - val_acc: 0.7233
+
+Epoch 31/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1261 - acc: 0.9796 - val_loss: 1.6273 - val_acc: 0.6533
+
+Epoch 32/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2281 - acc: 0.9587 - val_loss: 1.0961 - val_acc: 0.7267
+
+Epoch 33/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1016 - acc: 0.9845 - val_loss: 1.3302 - val_acc: 0.7133
+
+Epoch 34/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1922 - acc: 0.9640 - val_loss: 0.9609 - val_acc: 0.6967
+
+Epoch 35/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1088 - acc: 0.9845 - val_loss: 1.3407 - val_acc: 0.7100
+
+Epoch 36/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0825 - acc: 0.9881 - val_loss: 1.5567 - val_acc: 0.6767
+
+Epoch 37/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1022 - acc: 0.9824 - val_loss: 1.4237 - val_acc: 0.7000
+
+Epoch 38/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1517 - acc: 0.9738 - val_loss: 1.0024 - val_acc: 0.7467
+
+Epoch 39/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0857 - acc: 0.9869 - val_loss: 1.0892 - val_acc: 0.7367
+
+Epoch 40/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1211 - acc: 0.9800 - val_loss: 1.0783 - val_acc: 0.7267
+
+Epoch 41/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2196 - acc: 0.9554 - val_loss: 1.1846 - val_acc: 0.6933
+
+Epoch 42/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1307 - acc: 0.9767 - val_loss: 1.8286 - val_acc: 0.6467
+
+Epoch 43/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2088 - acc: 0.9632 - val_loss: 1.3471 - val_acc: 0.6900
+
+Epoch 44/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.4078 - acc: 0.9088 - val_loss: 1.0020 - val_acc: 0.7400
+
+Epoch 45/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2365 - acc: 0.9489 - val_loss: 1.5224 - val_acc: 0.6667
+
+Epoch 46/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2999 - acc: 0.9432 - val_loss: 1.0696 - val_acc: 0.7267
+
+Epoch 47/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1581 - acc: 0.9714 - val_loss: 1.0785 - val_acc: 0.7300
+
+Epoch 48/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1179 - acc: 0.9791 - val_loss: 1.1211 - val_acc: 0.7400
+
+Epoch 49/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2619 - acc: 0.9419 - val_loss: 1.5585 - val_acc: 0.6333
+
+Epoch 50/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2446 - acc: 0.9526 - val_loss: 1.2451 - val_acc: 0.7033
+
+Epoch 51/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.3182 - acc: 0.9432 - val_loss: 1.7262 - val_acc: 0.6567
+
+Epoch 52/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.3938 - acc: 0.9076 - val_loss: 0.7941 - val_acc: 0.7367
+
+Epoch 53/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2360 - acc: 0.9448 - val_loss: 1.2009 - val_acc: 0.6967
+
+Epoch 54/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.4326 - acc: 0.8876 - val_loss: 0.8417 - val_acc: 0.7400
+
+Epoch 55/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.2650 - acc: 0.9452 - val_loss: 1.0916 - val_acc: 0.7267
+
+Epoch 56/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1550 - acc: 0.9693 - val_loss: 1.0791 - val_acc: 0.7533
+
+Epoch 57/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.1368 - acc: 0.9722 - val_loss: 1.3940 - val_acc: 0.7000
+
+Epoch 58/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0986 - acc: 0.9783 - val_loss: 1.4031 - val_acc: 0.7100
+
+Epoch 59/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0867 - acc: 0.9800 - val_loss: 1.4344 - val_acc: 0.7167
+
+Epoch 60/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0817 - acc: 0.9804 - val_loss: 1.4486 - val_acc: 0.7200
+
+Epoch 61/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0817 - acc: 0.9804 - val_loss: 1.4748 - val_acc: 0.7200
+
+Epoch 62/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0811 - acc: 0.9804 - val_loss: 1.4940 - val_acc: 0.7200
+
+Epoch 63/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5149 - val_acc: 0.7200
+
+Epoch 64/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5190 - val_acc: 0.7200
+
+Epoch 65/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5335 - val_acc: 0.7200
+
+Epoch 66/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5384 - val_acc: 0.7200
+
+Epoch 67/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0808 - acc: 0.9804 - val_loss: 1.5391 - val_acc: 0.7200
+
+Epoch 68/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5428 - val_acc: 0.7200
+
+Epoch 69/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0808 - acc: 0.9804 - val_loss: 1.5308 - val_acc: 0.7200
+
+Epoch 70/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0811 - acc: 0.9804 - val_loss: 1.5318 - val_acc: 0.7200
+
+Epoch 71/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0808 - acc: 0.9804 - val_loss: 1.5442 - val_acc: 0.7200
+
+Epoch 72/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5407 - val_acc: 0.7200
+
+Epoch 73/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5410 - val_acc: 0.7200
+
+Epoch 74/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5479 - val_acc: 0.7200
+
+Epoch 75/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5363 - val_acc: 0.7200
+
+Epoch 76/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5454 - val_acc: 0.7200
+
+Epoch 77/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5534 - val_acc: 0.7200
+
+Epoch 78/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5552 - val_acc: 0.7200
+
+Epoch 79/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5478 - val_acc: 0.7200
+
+Epoch 80/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5491 - val_acc: 0.7200
+
+Epoch 81/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5488 - val_acc: 0.7200
+
+Epoch 82/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5440 - val_acc: 0.7200
+
+Epoch 83/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5503 - val_acc: 0.7200
+
+Epoch 84/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5496 - val_acc: 0.7200
+
+Epoch 85/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5491 - val_acc: 0.7200
+
+Epoch 86/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5454 - val_acc: 0.7200
+
+Epoch 87/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0808 - acc: 0.9804 - val_loss: 1.5545 - val_acc: 0.7200
+
+Epoch 88/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0805 - acc: 0.9804 - val_loss: 1.5624 - val_acc: 0.7200
+
+Epoch 89/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0813 - acc: 0.9804 - val_loss: 1.5474 - val_acc: 0.7200
+
+Epoch 90/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0807 - acc: 0.9804 - val_loss: 1.5393 - val_acc: 0.7200
+
+Epoch 91/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5534 - val_acc: 0.7200
+
+Epoch 92/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5501 - val_acc: 0.7200
+
+Epoch 93/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5462 - val_acc: 0.7200
+
+Epoch 94/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5516 - val_acc: 0.7200
+
+Epoch 95/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0808 - acc: 0.9804 - val_loss: 1.5521 - val_acc: 0.7200
+
+Epoch 96/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5563 - val_acc: 0.7200
+
+Epoch 97/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0810 - acc: 0.9804 - val_loss: 1.5535 - val_acc: 0.7200
+
+Epoch 98/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5493 - val_acc: 0.7200
+
+Epoch 99/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0808 - acc: 0.9804 - val_loss: 1.5606 - val_acc: 0.7200
+
+Epoch 100/100
+2446/2446 [==============================]2446/2446 [==============================] - 28s 11ms/step - loss: 0.0809 - acc: 0.9804 - val_loss: 1.5620 - val_acc: 0.7200
+
+2018-12-02 15:47:18.754283: W C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.45GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+ AUC of model =  0.7177407864741642

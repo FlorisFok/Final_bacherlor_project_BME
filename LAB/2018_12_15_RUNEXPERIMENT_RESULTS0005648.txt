@@ -1,0 +1,25 @@
+Floris Fok 
+2018/12/15      At: 0:56:48
+ 
+ 
+ The params where: 
+1.Data = ISIC
+2.RandomSeed = 5
+3.img_size_x = 224
+4.img_size_y = 224
+5.norm = False
+6.color = True
+7.pretrain = None
+8.equal_data = False
+9.shuffle = True
+10.epochs = 50
+11.val_size = 300
+12.test_size = 400
+13.Batch_size = 16 
+ 
+ 
+ The results where: 
+1.score = 0.7848999999999999
+2.data_name = two_combined
+3.method = kaggleDR
+4.style = SVM

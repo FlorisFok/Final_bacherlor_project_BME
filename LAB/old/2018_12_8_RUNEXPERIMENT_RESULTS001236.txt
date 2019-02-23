@@ -1,0 +1,27 @@
+Floris Fok 
+2018/12/8      At: 12:36:37
+ 
+ 
+ The params where: 
+1.img_size_x = 224
+2.img_size_y = 224
+3.norm = False
+4.color = True
+5.pretrain = None
+6.equal_data = False
+7.shuffle = True
+8.epochs = 2
+9.val_size = 50
+10.test_size = 50
+11.Batch_size = 1 
+ 
+ 
+ The results where: 
+1.score = 0.47115384615384615
+2.acc_epoch = [0.55, 0.7]
+3.val_acc_epoch = [0.54, 0.54]
+4.loss_epoch = [0.7326145455241203, 0.5885918503627181]
+5.vall_loss_epoch = [0.6789706128835679, 0.6777460783720016]
+Figure name: 
+C:\Users\s147057\Documents\GitHub\t2018_12_8_RUNEXPERIMENT_FigureACC01236.png
+C:\Users\s147057\Documents\GitHub\t2018_12_8_RUNEXPERIMENT_FigureLOSS&ACC01236.png

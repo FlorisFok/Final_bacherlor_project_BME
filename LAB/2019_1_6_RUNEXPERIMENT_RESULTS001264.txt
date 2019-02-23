@@ -1,0 +1,37 @@
+Floris Fok 
+2019/1/6      At: 1:26:4
+ 
+ 
+ The params where: 
+1.Data = ISIC
+2.data_name = two
+3.style = FT
+4.model = Nat
+5.file_path = C:\ISIC
+6.pickle_path = C:\pickles\save_melanoom_color_
+7.model_path = {'Nat': 'C:\\models\\Epochs_14_Nat.json', 'KaggleDR': 'C:\\models\\Epochs_50_kaggleDR.json', 'Chest': 'C:\\models\\Epochs_50_Chest.json', 'CatDog': 'C:\\models\\Epochs_40_CatDog.json'}
+8.RandomSeed = 2
+9.doc_path = C:\Users\Flori\Documents\GitHub\t
+10.img_size_x = 224
+11.img_size_y = 224
+12.norm = False
+13.color = True
+14.pretrain = None
+15.equal_data = False
+16.shuffle = True
+17.epochs = 50
+18.val_size = 200
+19.test_size = 400
+20.Batch_size = 32
+21.stop = yes 
+ 
+ 
+ The results where: 
+1.score = 0.6457702652785866
+2.acc_epoch = [0.4916044776119403, 0.488339552238806, 0.5494402985074627, 0.5317164179104478, 0.5004664179104478, 0.5004664179104478, 0.5004664179104478, 0.5004664179104478, 0.5004664179104478, 0.5004664179104478, 0.5004664179104478, 0.5004664179104478, 0.5004664179104478]
+3.val_acc_epoch = [0.46, 0.57, 0.605, 0.465, 0.465, 0.465, 0.465, 0.465, 0.465, 0.465, 0.465, 0.465, 0.465]
+4.loss_epoch = [1.434755451643645, 1.4249057645228371, 1.3798326556362324, 1.399329884728389, 1.4249008502533187, 1.4228832063390249, 1.4209600509102664, 1.4191363071327778, 1.4174215900364207, 1.4157969097592937, 1.4142629317383268, 1.4128180190698425, 1.4114517596230578]
+5.vall_loss_epoch = [0.7306783294677734, 0.6858193969726563, 0.6768357300758362, 0.7269100046157837, 0.7255270576477051, 0.7241861248016357, 0.7228975725173951, 0.7216700410842896, 0.7205028200149536, 0.71939058303833, 0.7183350872993469, 0.7173289394378662, 0.7163700246810913]
+Figure name: 
+C:\Users\Flori\Documents\GitHub\figs\2019_1_6_RUNEXPERIMENT_FigureLOSS&ACC0126.png
+ NONE 

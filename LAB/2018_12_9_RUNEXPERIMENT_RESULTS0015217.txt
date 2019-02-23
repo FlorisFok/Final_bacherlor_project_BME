@@ -1,0 +1,10 @@
+Floris Fok 
+2018/12/9      At: 15:21:7
+ 
+ 
+ The params where: 
+1.Data = ISIC 
+ 
+ 
+ The results where: 
+1.score = 0
